@@ -8,6 +8,8 @@ dotenv.config();
 const bot = new Snake({
   apiId: process.env.API,
   apiHash: process.env.HASH,
+  session: process.env.SESSION,
+  storeSession: false,
 });
 
 try {
