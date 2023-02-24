@@ -1,0 +1,17 @@
+{
+  "name": "tg-banall-bot-js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "tgsnake": "^2.1.0"
+  }
+}
